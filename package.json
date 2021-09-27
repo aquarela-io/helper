@@ -24,6 +24,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
+  
   "peerDependencies": {},
   "husky": {
     "hooks": {
@@ -57,7 +58,7 @@
     "typescript": "^4.4.3"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
   "bugs": {
